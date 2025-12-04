@@ -364,39 +364,39 @@ nav .cart .fa-cart-plus {
 
     }
 
-    @media(max-width:768px) {
 
-        .banner-container {
-            flex-direction: column;
-        }
 
-        .left-banners {
-            width: 100%;
-            order: 1;
-        }
-
-        .banner.large {
-            width: 100%;
-            order: 2;
-            height: 201px;
-        }
-
-        .banner {
-            height: 201px;
-        }
-
-        .Deals .deals_content {
-            margin-bottom: 51px;
-        }
-
-        .Deals .deals_content h1 {
-            font-size: 24px;
-        }
-
-        .Deals .deals_content p {
-            font-size: 14px; 
-        }
+    .banner-container {
+        flex-direction: column;
     }
+
+    .left-banners {
+        width: 100%;
+        order: 1;
+    }
+
+    .banner.large {
+        width: 100%;
+        order: 2;
+        height: 201px;
+    }
+
+    .banner {
+        height: 201px;
+    }
+
+    .Deals .deals_content {
+        margin-bottom: 51px;
+    }
+
+    .Deals .deals_content h1 {
+        font-size: 24px;
+    }
+
+    .Deals .deals_content p {
+        font-size: 14px;
+    }
+
 
 
 }
