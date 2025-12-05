@@ -90,7 +90,6 @@ nav .cart .fa-cart-plus {
 /* hero section style */
 .hero {
     width: 100%;
-    height: 461px;
     margin-top: 120px;
     display: flex;
     align-items: end;
@@ -128,6 +127,9 @@ nav .cart .fa-cart-plus {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.product_header h1 span{
+    color: #E95A08;
 }
 
 .product_header P {
@@ -285,7 +287,7 @@ nav .cart .fa-cart-plus {
     width: 100vw;
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
-    background-image: url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1400&q=60');
+    background-image: url('assets/news-letter-bg.png');
     background-position: center;
     padding: 120px 20px;
     text-align: center;
@@ -293,7 +295,6 @@ nav .cart .fa-cart-plus {
     margin-top: 120px;
     background-color: rgba(0, 0, 0, 0.541);
     background-blend-mode: overlay;
-    background-size: 140%;
 
 }
 
@@ -452,6 +453,9 @@ nav .cart .fa-cart-plus {
     .hero_content p {
         font-size: 14px;
     }
+    .product {
+    margin-top: 65px;
+}
 
     .product_card {
         grid-template-columns: repeat(2, 1fr);
@@ -517,6 +521,23 @@ nav .cart .fa-cart-plus {
         font-size: 14px;
     }
     
+.subscribe-section {
+    margin-top: 44px;
+}
+    .subscribe-box {
+    max-width: 100%;
+}
+.subscribe-box input {
+    padding: 8px;
+    font-size: 14px;
+}
+.subscribe-box button {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.subscribe-section h2 {
+    font-size: 20px;
+}
     .footer-container {
         flex-direction: column;
         text-align: center;
